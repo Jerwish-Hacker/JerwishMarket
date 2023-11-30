@@ -1,0 +1,48 @@
+.carousel {
+    max-height: 75vh; /* Set your desired height */
+    overflow: hidden; /* Hide any overflow content */
+}
+
+.carousel-item img {
+    max-height: 100%; /* Make the image fill its container vertically */
+    width: auto; /* Maintain the aspect ratio */
+    margin: auto; /* Center the image horizontally (optional) */
+}
+
+.hoverme:hover{
+    color: gold;
+}
+
+.headereffect{
+    overflow: hidden !important;  
+    transition: .5s ease;   
+    /* border: 2px solid red;    */
+}
+.headereffect:hover {    
+    transform:scale(1.04);        
+}
+
+
+.Nooverflow{
+    overflow: hidden !important;  
+}
+.relative{
+    position: relative !important;
+    
+}
+.absolute{
+    position: absolute !important;
+}
+
+.zz{
+    z-index: 100;
+}
+
+.hoverimg {    
+    transition: .5s ease;  
+    z-index: -10;
+}
+.hoverimg:hover{    
+    transform: rotate(-0deg) scale(1.03);  
+}
+
